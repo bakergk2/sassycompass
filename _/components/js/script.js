@@ -3,7 +3,7 @@ var pixGrid = function() {
   var myNode = document.querySelector('.pixgrid');
   myNode.addEventListener("click", function(e) {
 
-    if(e.target.tagName === 'IMG') {
+    if(e.target.tagName === 'IMG') { 
 
       var myOverlay = document.createElement('div');
       myOverlay.id = 'overlay';
